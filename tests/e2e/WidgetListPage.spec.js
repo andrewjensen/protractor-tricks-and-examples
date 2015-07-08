@@ -11,4 +11,13 @@ describe('Widget list page', function() {
 
         expect(browser.getTitle()).toEqual('Widgets');
     });
+
+    it('should click on the correct edit button', function() {
+        WidgetListPage.go();
+
+        var widgetName = 'Widget Number One';
+        WidgetListPage.clickEditWidgetLink(widgetName);
+
+        expect(browser.getTitle()).toEqual(widgetName);
+    });
 });
