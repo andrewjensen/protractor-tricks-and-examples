@@ -1,0 +1,12 @@
+{
+  "name": "protractor-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js",
+    "server": "http-server example-content/"
+  },
+  "author": "",
+  "license": "ISC"
+}
